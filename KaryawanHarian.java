@@ -5,7 +5,7 @@ public class KaryawanHarian extends Karyawan implements Gaji{
 
     @Override
     int hitungGaji() {
-        return jumlahJamKerja * tarifPerJam * tunjangan;
+        return (jumlahJamKerja * tarifPerJam) + tunjangan;
     }
 
     @Override
