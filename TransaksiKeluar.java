@@ -1,7 +1,7 @@
 public class TransaksiKeluar extends Transaksi {
 
     public int kodeKeluar;
-    private int kodeBarang;
+    
 
     public int jumlahKeluar;
 
@@ -31,15 +31,4 @@ public class TransaksiKeluar extends Transaksi {
     String deskribsi() {
         return "ini aman";
     }
-
-    public int getKodeBarang() {
-        return kodeBarang;
-    }
-
-    public void setKodeBarang(int kodeBarang) {
-        this.kodeBarang = kodeBarang;
-    }
-
-
-
 }
