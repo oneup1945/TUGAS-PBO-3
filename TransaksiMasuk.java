@@ -1,7 +1,6 @@
 public class TransaksiMasuk extends Transaksi {
 
     private int kodeMasuk;
-    private int kodeBarang;
     public int jumlah;
 
 
@@ -20,15 +19,6 @@ public class TransaksiMasuk extends Transaksi {
     public void setJumlah(int jumlah) {
         this.jumlah = jumlah;
     }
-
-    public int getKodeBarang() {
-        return kodeBarang;
-    }
-
-    public void setKodeBarang(int kodeBarang) {
-        this.kodeBarang = kodeBarang;
-    }
-
 
 
     @Override
